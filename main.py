@@ -25,7 +25,7 @@ def login():
 
 
         #mydb = sqlite3.connect('identifier.sqlite')
-        mydb = pymysql.connect(host="database-1.c4i4uil4h10w.us-east-2.rds.amazonaws.com", database="solo", port=3306,
+        mydb = pymysql.connect(host="https://drive.google.com/file/d/1WZL_LrvEMgqJJg_hkGPGp5Y6uyiYPN0t/view?usp=drivesdk", database="identifier.sqlite", port=3306,
                                user="manohar", passwd="9618287133")
 
         mycursor = mydb.cursor()
