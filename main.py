@@ -25,8 +25,8 @@ def login():
 
 
         #mydb = sqlite3.connect('identifier.sqlite')
-        mydb = pymysql.connect(host="https://drive.google.com/file/d/1WZL_LrvEMgqJJg_hkGPGp5Y6uyiYPN0t/view?usp=drivesdk", database="identifier.sqlite", port=3306,
-                               user="manohar", passwd="9618287133")
+        mydb = pymysql.connect(host="sql12.freemysqlhosting.net", database="sql12357213", port=3306,
+                               user="sql12357213", passwd="YHiQVvMYlA")
 
         mycursor = mydb.cursor()
         #mycursor.execute("create table run(id int,name )"
