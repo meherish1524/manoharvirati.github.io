@@ -35,7 +35,7 @@ def login():
         print(c)
         for row in c:
             print(row)
-        mycursor.execute("insert into run(id,name) values(1,'manu')")
+       # mycursor.execute("insert into run(id,name) values(1,'manu')")
                          #,(name,passw))
         mydb.commit()
         mydb.close()
