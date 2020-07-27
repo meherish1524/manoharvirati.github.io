@@ -4,7 +4,7 @@ import mysql.connector
 import sqlite3
 import pymysql
 #mydb = sqlite3.connect('identifier.sqlite')
-mydb = pymysql.connect(host="https://drive.google.com/file/d/1WZL_LrvEMgqJJg_hkGPGp5Y6uyiYPN0t/view?usp=drivesdk",database="identifier.sqlite",user="manohar",passwd="9618287133")
+#mydb = pymysql.connect(host="https://drive.google.com/file/d/1WZL_LrvEMgqJJg_hkGPGp5Y6uyiYPN0t/view?usp=drivesdk",database="identifier.sqlite",user="manohar",passwd="9618287133")
 
 mycursor = mydb.cursor()
 
