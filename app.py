@@ -40,5 +40,5 @@ def login():
         mydb.close()
         return redirect(url_for('reg'))
     return render_template("login.html")
-if __name__ == "__main__":
-    app.run()
+if __name__ == '__main__':
+    app.run(debug=True, use_reloader=True)
