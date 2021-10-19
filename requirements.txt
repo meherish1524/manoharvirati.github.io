@@ -1,4 +1,4 @@
 Flask 
-mysql-connector-python==1.0.12
+mysql-connector-python==8.0.17
 pymysql
 gunicorn
