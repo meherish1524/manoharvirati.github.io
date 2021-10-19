@@ -18,7 +18,7 @@ def reg():
     return render_template("reg.html")
 @app.route('/login',methods=['GET','POST'])
 def login():
-    if request.method == "POST":
+    if request.method == "GET":
         name=request.form['name']
         passw=request.form['psw']
 
